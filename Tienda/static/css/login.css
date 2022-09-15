@@ -1,0 +1,14 @@
+body{
+    background: #ffe259;
+    background: linear-gradient(to right, #ffa751, #ffe259);
+    }
+.imagenA{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenA img{
+    width: 250px;
+    height: 250px;
+}
