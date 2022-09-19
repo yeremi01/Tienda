@@ -9,7 +9,7 @@ import datetime
 from django.template import Template, Context
 
 def login(request): #primera vista
-    doc_externo = open("G:/pyhton/django/proyectos2/Tienda/Tienda/plantillas/login.html")
+    doc_externo = open("E:/pyhton/django/proyectos2/Tienda/Tienda/plantillas/login.html")
     plt=Template(doc_externo.read())
     doc_externo.close()
     ctx=Context()
@@ -17,7 +17,7 @@ def login(request): #primera vista
     return HttpResponse(documento)
 
 def Productos(request): #primera vista
-    doc_externo = open("G:/pyhton/django/proyectos2/Tienda/Tienda/plantillas/productos.html")
+    doc_externo = open("E:/pyhton/django/proyectos2/Tienda/Tienda/plantillas/productos.html")
     plt=Template(doc_externo.read())
     doc_externo.close()
     ctx=Context()
